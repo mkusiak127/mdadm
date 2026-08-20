@@ -1745,6 +1745,22 @@ at specified path.   This option is normally only set by an
 .I udev
 script.
 
+.TP
+.BR \-\-udev
+Indicate that mdadm is being run from a
+.I udev
+rule.  In this mode the device's
+.I /dev/disk/by-path
+names are taken from the
+.B DEVLINKS
+environment variable exported by
+.I udev
+instead of scanning the
+.I /dev/disk/by-path
+directory.  This option is normally only set by an
+.I udev
+script.
+
 .SH For Monitor mode:
 .TP
 .BR \-m ", " \-\-mail
