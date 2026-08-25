@@ -17,3 +17,6 @@
 /mdassemble.static
 /mdmon.O2
 /raid6check
+
+# Generic untracked directory for logs, scripts etc. for local development.
+sandbox/
